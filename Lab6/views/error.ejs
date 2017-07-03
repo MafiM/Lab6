@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Error</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+      <h1>Error: </h1>
+        <% for (var i = 0; i<message.length; i++) { %>
+            <p><%= message[i].msg %></p>
+        <% } %>
+  </body>
+</html>
